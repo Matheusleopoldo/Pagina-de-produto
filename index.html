@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cards</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	 <link  href="botoes.js">
+	  <script  src="botoes.js"></script>
+</head>
+<body>
+		<div class="container">
+
+			<div class="conteudo">
+
+				<img id="imagem" src="imagens/iphonebranco.jpeg" width="100%">
+				<h2>Apple iPhone 15 PRO MAX 256GB</h2>
+
+				<p class="tamanhoMenor margem_preço" >R$ 10.548,99</p>
+				<h1 class="tamanhoMaior">R$ 8.460,99</h1>
+
+				<p class="tamanhoMenor">selecione a cor</p>
+				<button onclick="alterarCor('branco')" class="botao" id="iphoneBranco"></button>
+				<button onclick="alterarCor('azul')" class="botao" id="iphoneAzul"></button>
+				<button onclick="alterarCor('preto')" class="botao" id="iphonePreto"></button>
+
+
+				<br><br>
+
+				<button onclick="adicionarCarrinho()" class="carrinho"> Adicionar ao carrinho</button>
+				<a class="detalhes" href="https://www.apple.com/br/iphone-15-pro/?afid=p238%7CsadEG9Rvf-dc_mtid_209258i342853_pcrid_675536843021_pgrid_154272762620_pexid__&cid=wwa-br-kwgo-iphone-slid--Brand-iPhone15ProMax-Avail-" Target="_blank">  Clique para mais detalhes</a>
+				
+
+				
+
+			</div>
+
+			<div class="conteudo">
+				
+				<img id="macimagem" src="imagens/macbranco.jpeg" width="100%">
+				<h2>Apple Macbook Air 13</h2>
+
+				<p class="tamanhoMenor margem_preço" >R$ 13.548,99</p>
+				<h1 class="tamanhoMaior" >R$ 10.460,99</h1>
+
+				<p class="tamanhoMenor">selecione a cor</p>
+				<button onclick="alterarCorMac('branco')" class="botao" id="macBranco"></button>
+				<button onclick="alterarCorMac('cinza')" class="botao" id="macCinza"></button>
+
+				<br><br>
+				<button onclick="adicionarCarrinho()" class="carrinho"> Adicionar ao carrinho</button>
+				<a class="detalhes" href="https://www.apple.com/br/macbook-pro/" target="_blank">Clique para mais detalhes</a>
+				
+
+
+			</div>
+
+			
+		</div>
+</body>
+</html>
